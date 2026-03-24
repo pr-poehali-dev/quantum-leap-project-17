@@ -23,91 +23,91 @@ interface Tweet {
 
 const tweets: Tweet[] = [
   {
-    text: "вайб-кодер: как мне сохранить эту версию?\n\nэти ребята: ок, сначала git init && git remote add origin, создай feature-ветку, git add ., git commit -m 'feat: initial commit', push чтобы создать PR, потом когда будут конфликты просто git rebase -i HEAD~3, stash pop, разреши...",
-    handle: "@bnj",
-    name: "Ben South",
-    url: "https://t.co/Iip1owCIDe",
+    text: "Трейдер: как мне понять, почему стратегия слила за последние 2 недели?\n\nClasic answer: открой Excel, выгрузи сделки, посчитай вручную, нарисуй график, вычисли drawdown...\n\nAlgoSignal: просто спроси — и получи ответ за 5 секунд.",
+    handle: "@alextrader",
+    name: "Алекс Т.",
+    url: "#",
     profileImage: "/images/profiles/bnj.jpg",
     isRetweet: true,
     originalTweet: {
-      text: 'Cursor/Windsurf нужен способ "сохранить" чекпоинт и назвать его -- версионность для вайб-кодеров',
-      handle: "@bnj",
-      name: "Ben South",
+      text: "Нужен инструмент, где можно одним кликом запустить бэктест на годах данных и сразу увидеть все метрики",
+      handle: "@alextrader",
+      name: "Алекс Т.",
     },
     stats: {
-      views: "88,9K",
-      likes: "366",
-      retweets: "22",
+      views: "12,4K",
+      likes: "287",
+      retweets: "43",
     },
   },
   {
-    text: "Самая большая ошибка в вайб-кодинге -- просить агента исправить ошибки вместо отката назад",
-    handle: "@tom_doerr",
-    name: "Tom Dorr",
-    url: "https://x.com/tom_doerr/status/1907293098557809124",
+    text: "Самая большая ошибка в трейдинге — торговать без чёткой стратегии и без бэктеста. AlgoSignal это исправляет.",
+    handle: "@pro_trader_ru",
+    name: "Pro Trader",
+    url: "#",
     profileImage: "/images/profiles/tom.jpg",
     stats: {
-      views: "389,6K",
-      likes: "3,8K",
-      retweets: "219",
+      views: "45,2K",
+      likes: "1,2K",
+      retweets: "98",
     },
   },
   {
-    text: "надо бы изобрести инструмент где вайб-код можно хранить в облаке чтобы время от времени делать 'чекин' кода и всегда можно было откатиться к предыдущей версии\n\nтипа ... хаб для кода",
-    handle: "@thekitze",
-    name: "Kitze",
-    url: "https://t.co/IPd6mRr7qI",
+    text: "надо бы сделать инструмент где можно задать параметры стратегии, нажать кнопку и сразу получить winrate, drawdown, PnL на исторических данных\n\nтипа... бэктестер для обычных людей, а не только для программистов",
+    handle: "@forex_dreams",
+    name: "Forex Dreams",
+    url: "#",
     profileImage: "/images/profiles/kitze.jpg",
     stats: {
-      views: "369,5K",
-      likes: "8,1K",
-      retweets: "358",
+      views: "28,7K",
+      likes: "934",
+      retweets: "112",
     },
   },
   {
-    text: "cursor pro tip для вайб-кодеров: используй вкладку git чтобы сохранять изменения и быстро откатываться если ai накосячил\n\nслишком много историй про вайб-кодеров которые не могут вернуться к рабочей версии\n\nсмотри видео",
-    handle: "@iannuttall",
-    name: "Ian Nuttall",
-    url: "https://t.co/ILoFbVkcDP",
+    text: "Совет для трейдеров: никогда не запускай реальные деньги без проверки на демо-счёте. AlgoSignal позволяет тестировать всё сначала на симуляторе — это сэкономило мне много тысяч рублей.",
+    handle: "@careful_trader",
+    name: "Осторожный Трейдер",
+    url: "#",
     profileImage: "/images/profiles/ian.jpg",
     stats: {
-      views: "31,4K",
-      likes: "333",
-      retweets: "28",
+      views: "8,9K",
+      likes: "201",
+      retweets: "34",
     },
   },
   {
-    text: 'Cursor/Windsurf нужен способ "сохранить" чекпоинт и назвать его -- версионность для вайб-кодеров',
-    handle: "@bnj",
-    name: "Ben South",
-    url: "https://x.com/bnj/status/1902151456645640595",
+    text: "Нужен инструмент где можно одним кликом запустить бэктест на годах данных и сразу увидеть все метрики",
+    handle: "@alextrader",
+    name: "Алекс Т.",
+    url: "#",
     profileImage: "/images/profiles/bnj.jpg",
     stats: {
-      views: "174,2K",
-      likes: "1,1K",
-      retweets: "62",
+      views: "19,3K",
+      likes: "445",
+      retweets: "67",
     },
   },
   {
-    text: "Сегодня был худший день\nПроект над которым я работал последние две недели повредился и всё потерялось. Вот так просто мой SaaS исчез. Две недели упорной работы полностью уничтожены.",
-    handle: "@vid_anuj",
-    name: "CC Anuj",
-    url: "https://x.com/vid_anuj/status/1902379748501880934",
+    text: "Сегодня был ужасный день\nЗакрыл руками позицию которую алго должен был держать. Потерял весь профит за неделю. Надо просто дать алгоритму работать и не вмешиваться.",
+    handle: "@trader_mistake",
+    name: "Честный Трейдер",
+    url: "#",
     profileImage: "/images/profiles/anuj.jpg",
     stats: {
-      likes: "121",
-      retweets: "31",
+      likes: "89",
+      retweets: "21",
     },
   },
   {
-    text: "git пугает людей которые просто хотят кодить. дайте им чёртову кнопку сохранить",
-    handle: "@anushkmittal",
-    name: "anushk",
-    url: "https://x.com/anushkmittal/status/1902412183096717334",
+    text: "Ручной трейдинг пугает людей которые просто хотят зарабатывать. Дайте им чёртову кнопку 'Запустить стратегию'",
+    handle: "@simplify_trade",
+    name: "SimplifyTrade",
+    url: "#",
     profileImage: "/images/profiles/anushk.jpg",
     stats: {
-      views: "951",
-      likes: "25",
+      views: "3,4K",
+      likes: "78",
     },
   },
 ]
@@ -157,7 +157,7 @@ export default function VibeCodingTweetsSection({ onOpenInstall }: VibeCodingTwe
               backgroundClip: "text",
             }}
           >
-            Vibe Coding взрывается -- вместе с ошибками.
+            Трейдеры устали торговать вслепую.
           </h2>
           <p
             className="max-w-3xl mx-auto text-white/80 mb-4"
@@ -168,7 +168,7 @@ export default function VibeCodingTweetsSection({ onOpenInstall }: VibeCodingTwe
               textAlign: "center",
             }}
           >
-            Не верьте нам на слово -- вот что реально говорят разработчики.
+            Не верьте нам на слово — вот что реально говорят трейдеры.
           </p>
         </div>
 

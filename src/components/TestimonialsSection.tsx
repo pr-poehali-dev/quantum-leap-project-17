@@ -41,11 +41,11 @@ export default function TestimonialsSection() {
                     letterSpacing: "-0.02em",
                   }}
                 >
-                  "Vibe Coding -- это{" "}
+                  "Алго-трейдинг — это{" "}
                   <span className="bg-gradient-to-r from-cyan-400 via-orange-400 to-pink-400 bg-clip-text text-transparent">
-                    Панк-рок
+                    дисциплина
                   </span>{" "}
-                  в разработке"
+                  в чистом виде"
                 </p>
               </blockquote>
 
@@ -56,7 +56,7 @@ export default function TestimonialsSection() {
                     fontFamily: '"GeistSans", sans-serif',
                   }}
                 >
-                  Рик Рубин
+                  Алексей Морозов
                 </cite>
                 <p
                   className="text-white/80 text-base md:text-lg mb-2"
@@ -64,7 +64,7 @@ export default function TestimonialsSection() {
                     fontFamily: '"GeistSans", sans-serif',
                   }}
                 >
-                  Легендарный музыкальный продюсер
+                  Профессиональный трейдер, 12 лет на рынке
                 </p>
                 <p
                   className="text-white/60 text-sm"
@@ -73,7 +73,7 @@ export default function TestimonialsSection() {
                       'GeistMono, ui-monospace, SFMono-Regular, "Roboto Mono", Menlo, Monaco, "Liberation Mono", "DejaVu Sans Mono", "Courier New", monospace',
                   }}
                 >
-                  a16z The Ben & Marc Show
+                  Пользователь AlgoSignal с 2024 года
                 </p>
               </footer>
             </div>
@@ -92,7 +92,7 @@ export default function TestimonialsSection() {
               lineHeight: "1.6",
             }}
           >
-            Rewind поддерживает бунтарский, креативный дух разработки -- где рождаются прорывные инновации.
+            AlgoSignal помогает трейдерам торговать системно — без эмоций, без угадывания, только по правилам стратегии.
           </p>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from "react"
 import { Button } from "@/components/ui/button"
-import { Download, Menu, X } from "lucide-react"
+import { TrendingUp, Menu, X } from "lucide-react"
 import InstallModal from "@/components/InstallModal"
 
 interface NavbarProps {
@@ -80,7 +80,7 @@ export default function Navbar({ isBannerVisible = true }: NavbarProps) {
                 height: "auto",
               }}
             >
-              Rewind
+              AlgoSignal
             </span>
           </div>
 
@@ -99,7 +99,7 @@ export default function Navbar({ isBannerVisible = true }: NavbarProps) {
                   height: "48px",
                 }}
               >
-                ОТЗЫВ
+                ДЕМО
               </Button>
             </a>
             <Button
@@ -117,8 +117,8 @@ export default function Navbar({ isBannerVisible = true }: NavbarProps) {
               }}
               onClick={() => setIsInstallModalOpen(true)}
             >
-              <Download className="mr-2 h-4 w-4 stroke-[2.5px]" />
-              СКАЧАТЬ
+              <TrendingUp className="mr-2 h-4 w-4 stroke-[2.5px]" />
+              НАЧАТЬ
             </Button>
           </div>
 
@@ -161,7 +161,7 @@ export default function Navbar({ isBannerVisible = true }: NavbarProps) {
                   height: "48px",
                 }}
               >
-                ОТЗЫВ
+                ДЕМО
               </Button>
             </a>
             <Button
@@ -182,8 +182,8 @@ export default function Navbar({ isBannerVisible = true }: NavbarProps) {
                 setIsInstallModalOpen(true)
               }}
             >
-              <Download className="mr-2 h-4 w-4 stroke-[2.5px]" />
-              СКАЧАТЬ
+              <TrendingUp className="mr-2 h-4 w-4 stroke-[2.5px]" />
+              НАЧАТЬ
             </Button>
           </div>
         </div>

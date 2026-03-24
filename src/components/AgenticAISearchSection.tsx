@@ -13,32 +13,32 @@ interface SearchQuery {
 
 const searchQueries: SearchQuery[] = [
   {
-    id: "favorites",
-    question: "Покажи мои правки в избранном",
+    id: "winrate",
+    question: "Какой winrate у SMA-стратегии за последние 3 месяца?",
     videoSrc: "/videos/favorites.mp4",
     fallbackSrc: "/videos/favorites.mp4",
-    category: "Функция",
+    category: "Аналитика",
   },
   {
-    id: "windsurf",
-    question: "Мы что-то меняли через Windsurf?",
+    id: "drawdown",
+    question: "Когда была максимальная просадка и при каких условиях?",
     videoSrc: "/videos/update-windsurf.mp4",
     fallbackSrc: "/videos/update-windsurf.mp4",
-    category: "Редактор",
+    category: "Риск",
   },
   {
-    id: "darkmode",
-    question: "Покажи рефакторинг темной темы",
+    id: "signals",
+    question: "Сколько сигналов сработало на 5-минутном таймфрейме?",
     videoSrc: "/videos/dark-mode-search.mp4",
     fallbackSrc: "/videos/dark-mode-search.mp4",
-    category: "Рефактор",
+    category: "Сигналы",
   },
   {
-    id: "v9",
-    question: "Что я делал в v9?",
+    id: "pnl",
+    question: "Какой PnL за сегодня по EUR/USD?",
     videoSrc: "/videos/did-v9.mp4",
     fallbackSrc: "/videos/did-v9.mp4",
-    category: "Версия",
+    category: "PnL",
   },
 ]
 
@@ -115,13 +115,13 @@ export default function AgenticAISearchSection({ onOpenInstall }: AgenticAISearc
 
   const getCategoryColor = (category: string) => {
     switch (category) {
-      case "Функция":
+      case "Аналитика":
         return "bg-cyan-500/20 text-cyan-300 border-cyan-400/30"
-      case "Редактор":
+      case "Риск":
         return "bg-orange-500/20 text-orange-300 border-orange-400/30"
-      case "Версия":
+      case "PnL":
         return "bg-pink-500/20 text-pink-300 border-pink-400/30"
-      case "Рефактор":
+      case "Сигналы":
         return "bg-purple-500/20 text-purple-300 border-purple-400/30"
       default:
         return "bg-white/20 text-white border-white/30"
@@ -146,7 +146,7 @@ export default function AgenticAISearchSection({ onOpenInstall }: AgenticAISearc
             backgroundClip: "text",
           }}
         >
-          AI-поиск по истории
+          Аналитика и мониторинг в реальном времени
         </h2>
         <p
           className="max-w-2xl mx-auto"
@@ -158,7 +158,7 @@ export default function AgenticAISearchSection({ onOpenInstall }: AgenticAISearc
             textAlign: "center",
           }}
         >
-          Спрашивайте что угодно. Rewind понимает всю историю разработки -- по версиям, веткам и редакторам.
+          Спрашивайте о стратегиях, результатах и рисках. Платформа понимает всю историю сделок — по символам, таймфреймам и стратегиям.
         </p>
       </div>
 
@@ -214,7 +214,7 @@ export default function AgenticAISearchSection({ onOpenInstall }: AgenticAISearc
                         textShadow: "0 2px 4px rgba(0,0,0,0.8)",
                       }}
                     >
-                      AI-поиск
+                      Умная аналитика
                     </h3>
                     <p
                       className="text-white/95 mb-6 text-base lg:text-lg"

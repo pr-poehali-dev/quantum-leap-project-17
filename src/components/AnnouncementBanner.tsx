@@ -15,25 +15,25 @@ interface BannerInfo {
 
 const bannerInfos: BannerInfo[] = [
   {
-    id: "ai-for-humans",
-    desktopText: 'AI for Humans -- "Роботы пишут ваш код? Rewind -- ваша страховка."',
-    mobileText: 'AI for Humans -- "Rewind -- ваша страховка."',
-    linkText: "Слушать",
-    linkUrl: "https://www.youtube.com/watch?v=ps8VJ2YeKvs&t=2203s",
-  },
-  {
-    id: "ai-jason",
-    desktopText: 'AI Jason (200K) называет Rewind "Vibe Versioning" -- UI в Cursor в 10 раз быстрее',
-    mobileText: 'AI Jason называет Rewind "Vibe Versioning"',
+    id: "backtest",
+    desktopText: "Бэктест на 5 лет исторических данных — winrate 68% на SMA-стратегии с RSI-фильтром",
+    mobileText: "Winrate 68% на SMA + RSI стратегии",
     linkText: "Смотреть",
-    linkUrl: "https://youtu.be/JfMcFjD-tIA?si=sSr6SIvZfGOth7QV",
+    linkUrl: "#",
   },
   {
-    id: "eric-tech",
-    desktopText: 'Eric Tech: "Vibe Coding с Gemini AI." Rewind в рабочем процессе.',
-    mobileText: 'Eric Tech: "Vibe Coding с Gemini AI."',
-    linkText: "Смотреть воркфлоу",
-    linkUrl: "https://youtu.be/AMeMeWjQmsY?si=hqXmTiIzDWzBUkn7",
+    id: "demo",
+    desktopText: "Запускай стратегии на демо-счёте без риска — подключи API брокера за 5 минут",
+    mobileText: "Демо-счёт без риска за 5 минут",
+    linkText: "Попробовать",
+    linkUrl: "#",
+  },
+  {
+    id: "signals",
+    desktopText: "Генератор сигналов в реальном времени: CALL/PUT с точностью до секунды экспирации",
+    mobileText: "CALL/PUT сигналы в реальном времени",
+    linkText: "Начать",
+    linkUrl: "#",
   },
 ]
 

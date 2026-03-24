@@ -15,24 +15,24 @@ interface FeatureData {
 const features: FeatureData[] = [
   {
     id: "save",
-    title: "Сохранить",
-    description: "Мгновенно сохраняйте код -- и отменяйте плохие AI-правки в любой момент.",
+    title: "Сигнал",
+    description: "Генератор сигналов CALL/PUT на базе SMA, RSI и Bollinger Bands — в реальном времени.",
     videoSrc: "/videos/save.mp4",
     fallbackSrc: "/videos/save-review-restore.mp4",
     thumbnailSrc: "/images/save-thumbnail.jpeg",
   },
   {
     id: "preview",
-    title: "Просмотр",
-    description: "Переключайтесь на любую версию в один клик.",
+    title: "Бэктест",
+    description: "Проверяйте стратегию на исторических данных — winrate, просадка, expectancy за секунды.",
     videoSrc: "/videos/preview.mp4",
     fallbackSrc: "/videos/save-review-restore.mp4",
     thumbnailSrc: "/images/preview-thumbnail.jpeg",
   },
   {
     id: "restore",
-    title: "Восстановить",
-    description: "Вернитесь к чистой версии в один клик.",
+    title: "Исполнение",
+    description: "Автоматическое исполнение заявок через API брокера — демо или боевой счёт.",
     videoSrc: "/videos/restore.mp4",
     fallbackSrc: "/videos/save-review-restore.mp4",
     thumbnailSrc: "/images/restore-thumbnail.jpeg",
@@ -109,7 +109,7 @@ export default function SaveReviewRestoreSection({ onOpenInstall }: SaveReviewRe
             backgroundClip: "text",
           }}
         >
-          Сохранить, Просмотреть, Восстановить
+          Сигнал → Бэктест → Исполнение
         </h2>
         <p
           className="max-w-2xl mx-auto"
@@ -121,7 +121,7 @@ export default function SaveReviewRestoreSection({ onOpenInstall }: SaveReviewRe
             textAlign: "center",
           }}
         >
-          AI работает быстро -- один плохой промпт может сломать всё. Rewind позволяет сохранять прогресс, просматривать изменения и восстанавливать мгновенно.
+          Полный цикл алго-трейдинга: от генерации сигнала до реальной заявки на брокерском счёте — в одной платформе.
         </p>
       </div>
 
@@ -195,7 +195,7 @@ export default function SaveReviewRestoreSection({ onOpenInstall }: SaveReviewRe
                         }}
                       >
                         <Download className="mr-2 h-4 w-4 stroke-[2.5px]" />
-                        УСТАНОВИТЬ
+                        НАЧАТЬ ТОРГОВАТЬ
                       </Button>
                     )}
                   </div>

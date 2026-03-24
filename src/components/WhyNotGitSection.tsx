@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { Download, Lightbulb, Save, Users, SeparatorHorizontal } from "lucide-react"
+import { Download, Lightbulb, ShieldCheck, Clock, BarChart2 } from "lucide-react"
 
 interface WhyNotGitSectionProps {
   onOpenInstall?: () => void
@@ -8,24 +8,24 @@ interface WhyNotGitSectionProps {
 export default function WhyNotGitSection({ onOpenInstall }: WhyNotGitSectionProps) {
   const features = [
     {
-      icon: Save,
-      title: "Git требует чистых коммитов.",
-      description: "Rewind захватывает хаотичные эксперименты -- без staging и лишних раздумий.",
+      icon: ShieldCheck,
+      title: "Ручная торговля — это эмоции и ошибки.",
+      description: "Алгоритм следует правилам строго: без паники, жадности и усреднения убыточных позиций.",
     },
     {
-      icon: SeparatorHorizontal,
-      title: "Git засоряет репо одноразовыми правками.",
-      description: "Rewind хранит отдельно -- ваш Git остаётся чистым.",
+      icon: Clock,
+      title: "Человек не может мониторить рынок 24/7.",
+      description: "Платформа работает непрерывно — сигналы и сделки исполняются в любое время суток.",
     },
     {
-      icon: Users,
-      title: "Git создан для инженеров.",
-      description: "Rewind работает для вайб-кодеров, вайб-дизайнеров и всех, кто вайбит с AI.",
+      icon: BarChart2,
+      title: "Без бэктеста — торговля вслепую.",
+      description: "Проверяйте любую стратегию на годах исторических данных до запуска на реальные деньги.",
     },
     {
       icon: Lightbulb,
-      title: "Git для финального продукта.",
-      description: "Rewind для экспериментов -- быстрых, хаотичных и креативных.",
+      title: "Интуиция — не стратегия.",
+      description: "Формализуйте правила входа: индикаторы, фильтры, риск-менеджмент — всё в коде, всё воспроизводимо.",
     },
   ]
 
@@ -48,7 +48,7 @@ export default function WhyNotGitSection({ onOpenInstall }: WhyNotGitSectionProp
               backgroundClip: "text",
             }}
           >
-            А почему не просто Git?
+            Почему не торговать вручную?
           </h2>
           <p
             className="max-w-2xl mx-auto text-white/90 mb-8"
@@ -59,7 +59,7 @@ export default function WhyNotGitSection({ onOpenInstall }: WhyNotGitSectionProp
               textAlign: "center",
             }}
           >
-            Git для деплоя. Rewind для экспериментов.
+            Алгоритм для прибыли. Человек для стратегии.
           </p>
         </div>
 
@@ -112,7 +112,7 @@ export default function WhyNotGitSection({ onOpenInstall }: WhyNotGitSectionProp
               lineHeight: "1.5",
             }}
           >
-            Перестаньте бояться сломать код. Экспериментируйте уверенно.
+            Перестаньте торговать на ощущениях. Торгуйте по системе.
           </p>
 
           {onOpenInstall && (
