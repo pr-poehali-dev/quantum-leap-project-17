@@ -63,9 +63,9 @@ export default function Navbar({ isBannerVisible = true }: NavbarProps) {
               xmlns="http://www.w3.org/2000/svg"
               className="mr-2"
             >
-              <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="#FFFFFF" stroke="#FFFFFF" strokeWidth="1" />
-              <path d="M2 17L12 22L22 17" stroke="#FFFFFF" strokeWidth="1" />
-              <path d="M2 12L12 17L22 12" stroke="#FFFFFF" strokeWidth="1" />
+              <polyline points="2,18 8,10 13,14 22,4" stroke="#00C853" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+              <polyline points="17,4 22,4 22,9" stroke="#00C853" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+              <line x1="2" y1="22" x2="22" y2="22" stroke="#ffffff" strokeWidth="1" strokeOpacity="0.3" />
             </svg>
             <span
               className="logo-text"

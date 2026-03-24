@@ -104,7 +104,7 @@ export default function AnnouncementBanner({ onVisibilityChange }: AnnouncementB
           className={`flex items-center gap-3 transition-all duration-600 ease-out motion-reduce:transition-none motion-reduce:transform-none ${simpleTransition}`}
         >
           <div
-            className={`w-1 h-4 bg-gradient-to-b from-cyan-400 via-orange-400 to-pink-400 rounded-full transition-all duration-300 ease-out motion-reduce:transition-none ${
+            className={`w-1 h-4 bg-gradient-to-b from-[#00C853] via-[#00897B] to-[#D32F2F] rounded-full transition-all duration-300 ease-out motion-reduce:transition-none ${
               isTransitioning ? "scale-110 shadow-lg shadow-cyan-400/50" : "scale-100"
             }`}
           ></div>

@@ -42,7 +42,7 @@ export default function TestimonialsSection() {
                   }}
                 >
                   "Алго-трейдинг — это{" "}
-                  <span className="bg-gradient-to-r from-cyan-400 via-orange-400 to-pink-400 bg-clip-text text-transparent">
+                  <span className="bg-gradient-to-r from-[#00C853] via-[#00897B] to-[#D32F2F] bg-clip-text text-transparent">
                     дисциплина
                   </span>{" "}
                   в чистом виде"
@@ -79,7 +79,7 @@ export default function TestimonialsSection() {
             </div>
           </div>
 
-          <div className="absolute inset-0 rounded-3xl bg-gradient-to-r from-cyan-500/20 via-orange-500/20 to-pink-500/20 opacity-0 hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
+          <div className="absolute inset-0 rounded-3xl bg-gradient-to-r from-[#00C853]/20 via-[#00897B]/20 to-[#D32F2F]/20 opacity-0 hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
         </a>
 
         <div className="text-center mt-12 md:mt-16">

@@ -71,7 +71,7 @@ export default function WhyNotGitSection({ onOpenInstall }: WhyNotGitSectionProp
             >
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0">
-                  <div className="w-12 h-12 bg-gradient-to-br from-cyan-400 via-orange-400 to-pink-400 rounded-xl flex items-center justify-center">
+                  <div className="w-12 h-12 bg-gradient-to-br from-[#00C853] to-[#D32F2F] rounded-xl flex items-center justify-center">
                     <feature.icon className="w-6 h-6 text-white" strokeWidth={2} />
                   </div>
                 </div>

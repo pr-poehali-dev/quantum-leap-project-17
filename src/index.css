@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -12,7 +12,12 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
 }
 
 @layer base {
@@ -107,7 +112,13 @@ body {
 }
 
 .font-geist {
-  font-family: "GeistSans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family:
+    "GeistSans",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
 }
 
 /* Custom selection styles */
@@ -161,19 +172,19 @@ p[style*="--selection-text-color"]::-moz-selection {
 }
 
 .gradient-yellow-red {
-  background: linear-gradient(90deg, #22d3ee 0%, #ff5c28 50%, #ff5c9d 100%);
+  background: linear-gradient(90deg, #00c853 0%, #00897b 40%, #d32f2f 100%);
 }
 
 .gradient-yellow-red-diagonal {
-  background: linear-gradient(135deg, #22d3ee 0%, #ff5c28 50%, #ff5c9d 100%);
+  background: linear-gradient(135deg, #00c853 0%, #00897b 40%, #d32f2f 100%);
 }
 
 .gradient-blue-red {
-  background: linear-gradient(90deg, #22d3ee 0%, #ff5c28 50%, #ff5c9d 100%);
+  background: linear-gradient(90deg, #1b5e20 0%, #00c853 45%, #b71c1c 100%);
 }
 
 .gradient-teal-red {
-  background: linear-gradient(90deg, #22d3ee 0%, #ff5c28 50%, #ff5c9d 100%);
+  background: linear-gradient(90deg, #00c853 0%, #00897b 50%, #d32f2f 100%);
 }
 
 /* Hide scrollbar but allow scrolling */

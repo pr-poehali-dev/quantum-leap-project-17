@@ -40,7 +40,7 @@ export default function Home() {
             <div
               className="absolute inset-0 w-full h-full rounded-[16px]"
               style={{
-                background: "linear-gradient(135deg, #22D3EE 0%, #FF5C28 50%, #FF5C9D 100%)",
+                background: "linear-gradient(135deg, #00C853 0%, #00897B 45%, #D32F2F 100%)",
               }}
             />
             <div

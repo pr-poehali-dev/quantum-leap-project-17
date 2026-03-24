@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS leads (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  email VARCHAR(255) NOT NULL,
+  phone VARCHAR(50),
+  broker VARCHAR(100),
+  created_at TIMESTAMP DEFAULT NOW()
+);

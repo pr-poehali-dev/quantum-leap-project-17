@@ -175,7 +175,7 @@ export default function VibeCodingTweetsSection({ onOpenInstall }: VibeCodingTwe
         <div className="flex justify-center">
           <div
             className="gradient-container max-w-[1296px] w-full relative"
-            style={{ background: "linear-gradient(135deg, #22d3ee 0%, #ff5c28 50%, #ff5c9d 100%)" }}
+            style={{ background: "linear-gradient(135deg, #00C853 0%, #00897B 45%, #D32F2F 100%)" }}
           >
             <div className="absolute inset-0 bg-black/35 rounded-[16px]"></div>
             <div className="noise-texture"></div>

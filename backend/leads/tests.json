@@ -1,0 +1,22 @@
+{
+  "tests": [
+    {
+      "name": "Save lead",
+      "method": "POST",
+      "path": "/",
+      "body": { "name": "Тест Трейдер", "email": "test@example.com", "phone": "+79001234567", "broker": "Deriv" },
+      "expectedStatus": 200,
+      "expectedBody": { "success": true },
+      "bodyMatcher": "partial"
+    },
+    {
+      "name": "Missing email",
+      "method": "POST",
+      "path": "/",
+      "body": { "name": "Тест" },
+      "expectedStatus": 400,
+      "expectedBody": { "error": "name and email are required" },
+      "bodyMatcher": "partial"
+    }
+  ]
+}
